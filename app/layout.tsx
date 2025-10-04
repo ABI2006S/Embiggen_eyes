@@ -4,9 +4,10 @@ import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
 import { Playfair_Display } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
-import "./globals.css"
 import { Suspense } from "react"
+import "./globals.css"
 import { Toaster } from "@/components/ui/toaster"
+import { Providers } from "./providers"
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -26,11 +27,13 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${playfair.variable}`}>
-        <Suspense fallback={null}>{children}</Suspense>
-        <Toaster />
-        <Analytics />
+        <Providers>
+          <Suspense fallback={null}>{children}</Suspense>
+          <Toaster />
+          <Analytics />
+        </Providers>
       </body>
     </html>
   )

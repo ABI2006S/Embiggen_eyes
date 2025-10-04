@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
+import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
 import { Volume2, VolumeX, Search, Moon, Sun, BookOpen } from "lucide-react"
 import { SearchBar } from "./search-bar"
@@ -10,8 +11,8 @@ export function Navigation() {
   const [isMuted, setIsMuted] = useState(true)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [isResearchOpen, setIsResearchOpen] = useState(false)
-  const [theme, setTheme] = useState<"dark" | "light">("dark")
   const audioRef = useRef<HTMLAudioElement | null>(null)
+  const { theme, setTheme } = useTheme()
 
   useEffect(() => {
     // Initialize ambient space audio
@@ -32,9 +33,7 @@ export function Navigation() {
   }
 
   const toggleTheme = () => {
-    const newTheme = theme === "dark" ? "light" : "dark"
-    setTheme(newTheme)
-    document.documentElement.classList.toggle("dark")
+    setTheme(theme === "dark" ? "light" : "dark")
   }
 
   return (
