@@ -75,19 +75,17 @@
   --sidebar-ring: oklch(0.439 0 0);
 }
 
-/* Theme variables are now handled by Tailwind config */
-
-/* Base styles */
-* {
-  border-color: var(--border);
-  outline-color: color-mix(in oklch, var(--ring) 50%, transparent);
-}
-body {
-  background-color: var(--background);
-  color: var(--foreground);
+@layer base {
+  * {
+    @apply border-border;
+    @apply outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }
 
-  /* High-quality image rendering for crisp zoom */
+/* High-quality image rendering for crisp zoom */
   img {
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
@@ -124,4 +122,3 @@ body {
     scroll-snap-align: center;
     scroll-snap-stop: always;
   }
-}
