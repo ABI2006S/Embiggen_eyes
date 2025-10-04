@@ -1,13 +1,12 @@
-import type React from "react"
+import "@/app/globals.css"
 import type { Metadata } from "next"
 import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
 import { Playfair_Display } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 import { Suspense } from "react"
-import "./globals.css"
-import { Toaster } from "@/components/ui/toaster"
-import { Providers } from "./providers"
+import { ThemeProvider } from "@/components/theme-provider"
+import { cn } from "@/lib/utils"
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -17,23 +16,32 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Cosmic Explorer - Journey Through Space",
-  description: "An immersive space exploration experience with planets, NASA imagery, and AI-powered analysis",
+  description: "An immersive space exploration experience",
   generator: "v0.app",
 }
 
-export default function RootLayout({
-  children,
-}: Readonly<{
+interface RootLayoutProps {
   children: React.ReactNode
-}>) {
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${playfair.variable}`}>
-        <Providers>
-          <Suspense fallback={null}>{children}</Suspense>
-          <Toaster />
-          <Analytics />
-        </Providers>
+    <html lang="en" className={cn(
+      GeistSans.variable,
+      GeistMono.variable,
+      playfair.variable
+    )}>
+      <body className="min-h-screen bg-background font-sans antialiased">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+        >
+          <Suspense fallback={null}>
+            {children}
+            <Analytics />
+          </Suspense>
+        </ThemeProvider>
       </body>
     </html>
   )

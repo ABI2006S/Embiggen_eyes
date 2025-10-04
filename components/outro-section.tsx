@@ -30,7 +30,7 @@ export function OutroSection() {
   }, [])
 
   const handleGitHubClick = () => {
-    window.open("https://github.com/ABI2006S/cosmic-explorer", "_blank")
+    window.open("https://github.com/ABI2006S/Embiggen_eyes", "_blank")
   }
 
   const teamMembers = [
