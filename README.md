@@ -146,7 +146,7 @@ Open your browser at http://localhost:5173/
 
 ---
 
-## 🧑‍💻 DeveloperS Info
+## 🧑‍💻 Developers Info
 
 - **Team:** EX0GENESIS
 - ### 👥 Members
