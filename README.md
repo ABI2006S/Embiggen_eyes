@@ -1,6 +1,6 @@
 # 🌌 Cosmic Explorer
 
-![Cosmic Explorer Banner](https://github.com/ABI2006S/Embiggen_eyes/blob/main/cosmic_explore.png)
+![Cosmic Explorer Banner](https://cdn.pixabay.com/photo/2017/12/17/16/12/planet-3021872_1280.jpg)
 
 <p align="center">
   <em>“Exploring the infinite — one pixel at a time.”</em>
@@ -163,14 +163,23 @@ Open your browser at http://localhost:5173/
 ---
 
 ## 🪐 Preview
-*(Insert your project screenshot or banner below)*  
-![Cosmic Explorer Preview](https://cdn.pixabay.com/photo/2017/12/17/16/12/planet-3021872_1280.jpg)
+
+<p align="center">
+  <img src="https://github.com/ABI2006S/Embiggen_eyes/blob/main/Preview/0.png" width="32%" />
+  <img src="https://github.com/ABI2006S/Embiggen_eyes/blob/main/Preview/1.png" width="32%" />
+  <img src="https://github.com/ABI2006S/Embiggen_eyes/blob/main/Preview/2.png" width="32%" />
+</p>
+<p align="center">
+  <img src="https://github.com/ABI2006S/Embiggen_eyes/blob/main/Preview/3.png" width="49%" />
+  <img src="https://github.com/ABI2006S/Embiggen_eyes/blob/main/Preview/4.png" width="49%" />
+</p>
 
 
 ## 🚀 Submitted for NASA Space Apps Challenge 2025
 
 **Team Exogenesis** ✨  
 *“Exploring the infinite — one pixel at a time.”*
+
 
 
 
