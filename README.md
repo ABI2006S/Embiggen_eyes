@@ -90,8 +90,8 @@ Inspired by **Google Earth** and **NASA GigaPan**, the project allows users to s
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/CosmicExplorer.git
-cd CosmicExplorer
+git clone https://github.com/yourusername/Embiggen_eyes.git
+cd Embiggen_eyes
 ```
 ### 2️⃣ Install Dependencies
 ##### 1.Frontend
@@ -149,12 +149,12 @@ Open your browser at http://localhost:5173/
 ## 🧑‍💻 DeveloperS Info
 
 - **Team:** EX0GENESIS
-- **Members:** Abin Varughese John(CSE)
-               Ashvel Ipe(CSE)
-               P.B.Brahmadathan(B.sc Maths)
-               Colin Abraham Varughese(B.sc Maths)
-               Jestin K C(CSE)
-               Jeyaprasad K(CSE)
+- **Members:** **Abin Varughese John(CSE)**
+               **Ashvel Ipe(CSE)**
+               **P.B.Brahmadathan(B.sc Maths)**
+               **Colin Abraham Varughese(B.sc Maths)**
+               **Jestin K C(CSE)**
+               **Jeyaprasad K(CSE)**
                
 - **Project:** Cosmic Explorer  
 - **GitHub:** [https://github.com/ABI2006S](https://github.com/ABI2006S)  
