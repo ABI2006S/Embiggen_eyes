@@ -184,7 +184,7 @@ export function OutroSection() {
                 {/* Team Logo */}
                 <div className="flex justify-center mb-6">
                   <img
-                    src="/abstract-team-logo.png"
+                    src="public/assets/team/team-logo.png"
                     alt="Team Logo"
                     className="w-48 h-48 object-contain rounded-full bg-accent/10 p-4"
                   />
