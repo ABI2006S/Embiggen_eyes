@@ -12,7 +12,7 @@
   <a href="https://www.nasa.gov/"><img src="https://img.shields.io/badge/NASA%20API-blue?style=for-the-badge&logo=nasa" /></a>
   <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /></a>
   <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel" /></a>
-  <a href="https://github.com/fiveamvibez"><img src="https://img.shields.io/badge/Author-Fiveam%20Vibez-purple?style=for-the-badge" /></a>
+  <a href="https://github.com/ABI2006S"><img src="https://img.shields.io/badge/Author-EX0%20GENESIS-purple?style=for-the-badge" /></a>
 </p>
 
 ---
