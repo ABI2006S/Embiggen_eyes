@@ -1,6 +1,6 @@
 # 🌌 Cosmic Explorer
 
-![Cosmic Explorer Banner](https://cdn.pixabay.com/photo/2017/12/17/16/12/planet-3021872_1280.jpg)
+![Cosmic Explorer Banner](https://github.com/ABI2006S/Embiggen_eyes/blob/main/cosmic_explore.png)
 
 <p align="center">
   <em>“Exploring the infinite — one pixel at a time.”</em>
